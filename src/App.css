@@ -1,0 +1,46 @@
+#inp{
+  padding: 25px;
+  font-size: 24px;
+}
+.buttons{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.budget-app{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          margin-top: 100px;
+}
+.budget{
+  font-size: 30px;
+  text-align: center;
+  width: 500px;
+  background: #fff;
+  color: #24272e;
+  padding: 15px;
+  border-radius: 10px;
+}
+.date{
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+}
+.results{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.alert{
+  width: 500px;
+}
